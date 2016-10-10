@@ -6,4 +6,6 @@ Four. printenv prints all the environmental variables.<br>
 Five. Skipping this for now.<br>
 Six. I might be missing one thing, but don't know how to test this.<br>
 Seven. The global (environmental) variable doesn't differ in format from local, does it?<br>
+Eight. The code outputs but not as an integer.<br>
+Nine. 
 Fifteen. Published on medium.com<br> 
