@@ -7,5 +7,5 @@ Five. Skipping this for now.<br>
 Six. I might be missing one thing, but don't know how to test this.<br>
 Seven. The global (environmental) variable doesn't differ in format from local, does it?<br>
 Eight. The code outputs but not as an integer.<br>
-Nine. 
+Nine. The exported global variable values are storing, but it is doesn't printf into singular number. Strange.<br> 
 Fifteen. Published on medium.com<br> 
