@@ -6,7 +6,9 @@ Four. printenv prints all the environmental variables.<br>
 Five. Skipping this for now.<br>
 Six. I might be missing one thing, but don't know how to test this.<br>
 Seven. The global (environmental) variable doesn't differ in format from local, does it?<br>
-Eight. The code outputs but not as an integer.<br>
-Nine. The exported global variable values are storing, but it is doesn't printf into singular number. Strange.<br> 
-Ten. The exported global variable values are storing, but it doesn't printf into singular number too.<br>
+Eight. ~The code outputs but not as an integer.~ echo prints out the expression to display. The dollar sign grabs the value assigned globally.<br>
+Nine. ~The exported global variable values are storing, but it is doesn't printf into singular number. Strange.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br> 
+Ten. ~The exported global variable values are storing, but it doesn't printf into singular number too.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br>
+Twelve. Skipping for now, too many requirements right now.<br>
+Thirteen. printf is inherited from C. "%0.2f" prints out a floating point number with two decimal places. \n prints out a new line.<br>
 Fifteen. Published on medium.com<br> 
