@@ -1,3 +1,3 @@
 #!/bin/bash
 # mkdir action $PATH - this is the idea, but how do I create a directory in $PATH?
-PATH=$PATH:/action
+PATH="$PATH:/action"
