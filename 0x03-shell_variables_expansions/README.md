@@ -9,7 +9,7 @@ Seven. ~The global (environmental) variable doesn't differ in format from local,
 Eight. ~The code outputs but not as an integer.~ echo prints out the expression to display. The dollar sign grabs the value assigned globally.<br>
 Nine. ~The exported global variable values are storing, but it is doesn't printf into singular number. Strange.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br> 
 Ten. ~The exported global variable values are storing, but it doesn't printf into singular number too.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br>
-Eleven. "To convert from a base-10 integer to its base-2 (binary) equivalent, the number is divided by 2." Hence, I thought I would get the number by multiplying by 2. No dice.<br>
+Eleven. "To convert from a base-10 integer to its base-2 (binary) equivalent, the number is divided by 2." Hence, I thought I would get the number by multiplying by 2. No dice. I need to learn more about the concept of base.<br>
 Twelve. Skipping for now, too many requirements right now.<br>
 Thirteen. printf is inherited from C. "%0.2f" prints out a floating point number with two decimal places. \n prints out a new line.<br>
 Fifteen. Published on medium.com<br> 
