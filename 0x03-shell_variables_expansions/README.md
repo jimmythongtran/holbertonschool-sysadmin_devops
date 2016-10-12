@@ -4,8 +4,8 @@ Two. ~I added the whole path with $PATH amended onto it, but it doesn't work.~ I
 Three. ~I am unsure of this one.~ I translated the colons to newlines and pipelined it through the wc to print out to display the number of lines.<br>
 Four. printenv prints all the environmental variables.<br>
 Five. ~Skipping this for now.~ I am set now.<br>
-Six. I might be missing one thing, but don't know how to test this.<br>
-Seven. The global (environmental) variable doesn't differ in format from local, does it?<br>
+Six. ~I might be missing one thing, but don't know how to test this.~ Didn't need printf or a dollar sign.<br>
+Seven. ~The global (environmental) variable doesn't differ in format from local, does it?~ It's global so I export it.<br>
 Eight. ~The code outputs but not as an integer.~ echo prints out the expression to display. The dollar sign grabs the value assigned globally.<br>
 Nine. ~The exported global variable values are storing, but it is doesn't printf into singular number. Strange.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br> 
 Ten. ~The exported global variable values are storing, but it doesn't printf into singular number too.~ echo prints out the expression to display. The dollar sign grabs the values assigned globally.<br>
