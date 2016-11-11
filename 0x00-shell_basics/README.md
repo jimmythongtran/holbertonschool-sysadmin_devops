@@ -1,6 +1,1 @@
-# holbertonschool-sysadmin_devops
-# holbertonschool-sysadmin_devops
-# holbertonschool-sysadmin_devops
-# holbertonschool-sysadmin_devops
-# holbertonschool-sysadmin_devops
-# holbertonschool-sysadmin_devops
+<h1>Shell basics, live and in full effect.</h1>
