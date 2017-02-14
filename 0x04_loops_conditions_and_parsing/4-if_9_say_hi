@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Prints Holberton School ten times
+# Prints Holberton School nine times, print "Hi" on ninth time
 
 i="1"
 
