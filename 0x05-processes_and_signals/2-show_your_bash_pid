@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# this displays a list of currently running processes
+# this displays line containing 'bash' word 
 # shellcheck disable=SC2009
 ps -auxf | grep 'bash'
