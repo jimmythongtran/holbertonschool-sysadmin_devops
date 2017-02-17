@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # this displays a list of currently running processes
 # f flag groups together like processes into process tree
+# x lifts "must have TTY" restriction
 ps -auxf
