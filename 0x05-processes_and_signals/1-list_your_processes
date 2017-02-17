@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this displays a list of currently running processes
+# f flag groups together like processes into process tree
+ps -auxf
