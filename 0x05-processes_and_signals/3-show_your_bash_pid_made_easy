@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this displays line containing 'bash' word in an easier bash command format 
+# -l lists the process name as well as ID
+pgrep -l bash
