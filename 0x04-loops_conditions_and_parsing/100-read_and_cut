@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# read contents of file using while loop 
+while read line
+do
+	echo "$line" | cut -d ':' -f1,3,6 
+done < /etc/passwd
