@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# --listen: shows listening sockets, can specify with --tcp or --udp
+# --programs: shows which process is listening on the specified port 
+netstat --listen --programs
