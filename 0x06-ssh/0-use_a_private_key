@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# -i: selects a file from which the identity (private key) for public key authentication is read
+ssh -i ~/.ssh/holberton ubuntu@54.91.75.76
+
