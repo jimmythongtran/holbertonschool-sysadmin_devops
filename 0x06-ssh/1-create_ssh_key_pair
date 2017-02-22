@@ -1,6 +1,5 @@
 #/usr/bin/env bash
 # -t: specifies type of key
 # -b: specifies number of bits in key to create
-# -P: provides (old) passphrase
 # -f: specifies filename of key file
-ssh-keygen -t rsa -b 4096 $1 -P holberton
+ssh-keygen -t rsa -b 4096 -f holberton
