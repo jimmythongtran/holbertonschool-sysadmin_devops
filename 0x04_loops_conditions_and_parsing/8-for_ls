@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Display current directory in list format, part of name after dash displayed  
-for i in *
-do
-	echo "$i" | cut -d "-" -f2;
-done
