@@ -2,4 +2,5 @@
 # -t: specifies type of key
 # -b: specifies number of bits in key to create
 # -f: specifies filename of key file
-ssh-keygen -t rsa -b 4096 -f holberton
+# -P: provides the old passphrase
+ssh-keygen -t rsa -b 4096 -f holberton -P password
