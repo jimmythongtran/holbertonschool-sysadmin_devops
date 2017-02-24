@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# conditional pings successfully or prints usage string
+num_args=$#
+if [ "$num_args" -eq 1 ]
+then ping -c 5 "$1"
+else echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
