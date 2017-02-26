@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-curl
+/etc/init.d/apache2 start
