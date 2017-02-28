@@ -3,5 +3,5 @@
 sudo apt-get -y install nginx
 sudo service nginx start
 new_string="rewrite ^/redirect_me http://motherfuckingwebsite.com/ permanent;"
-file=""
+file="/etc/nginx/sites-enabled/default"
 sudo sed -i "$new_string" $file
