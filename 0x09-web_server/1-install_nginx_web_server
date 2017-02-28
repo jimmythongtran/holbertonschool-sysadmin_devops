@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# install nginx web server
+# tee: read from standard input and write to standard output
+# Ubuntu's default document root
+sudo apt-get -y install nginx
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+service nginx start 
