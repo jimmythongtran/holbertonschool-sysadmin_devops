@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # redirects to another page "301 Moved Permanently"
-sudo apt-get -y install nginx
+sudo apt-get update;
+sudo apt-get -y install nginx;
 sudo service nginx start
 new_string="rewrite ^/redirect_me http://motherfuckingwebsite.com/ permanent;"
 file="/etc/nginx/sites-enabled/default"
-sudo sed -i "$new_string" $file
+sudo sed -i "$new_string" $file;
+sudo service nginx start;
