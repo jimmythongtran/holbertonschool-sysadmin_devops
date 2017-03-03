@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 # -t: specifies type of key
 # -b: specifies number of bits in key to create
 # -f: specifies filename of key file
