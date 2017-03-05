@@ -3,11 +3,13 @@
 sudo apt-get update
 sudo apt-get install haproxy
 #enable HAProxy to be started by init script enabling to option 1
-sudo sed -i "ENABLED=1" /etc/default/haproxy
+sudo sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/haproxy
 
 #backup config file so you can start with a blank slate if you ever need it Anne says
 sudo cp /etc/haproxy/haproxy.cfg etc/haproxy/cfg.backup
 
 #changing config file
-sudo sed -i "\nlisten appname 0.0.0.0:80\n\tbalance roundrobin\n\toptionhttpclose\n\toptionforwardfor\n\tserver 65-web-01 54.91.75.76:80 check\n\tserver 65-web-02 52.207.18.140:80 check" /etc/haproxy/haproxy.cfg
+sudo sed -i -e '$a\listen appname 0.0.0.0:80\n\tmode http\n\tstats enable' /etc/haproxy/haproxy.cfg
+sudo sed -i -e '$a\\tbalance roundrobin\n\toption httpclose\n\toption forwardfor' /etc/haproxy/haproxy.cfg
+sudo sed -i -e '$a\\tserver 65-web-01 54.91.75.76:80\n\tserver 65-web-02 52.207.18.140:80' /etc/haproxy/haproxy.cfg
 sudo service haproxy start
