@@ -2,7 +2,7 @@
 # this configures your domain zone so the subdomain points to your load balancer
 print_subdomain()
 {
-	dig "$1.$2" | grep -A1 'ANSWER SECTION:' | awk 'BEGIN {print "The subdomain "$1" is a "$4" record and points to $5"; }'
+	dig "$1.$2" | grep -A1 'ANSWER SECTION:' | tail -1 | awk 'BEGIN {print "The subdomain "$1" is a "$4" record and points to $5"; }'
 }
 
 
