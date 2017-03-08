@@ -1,4 +1,4 @@
-sudo default deny incoming
+sudo ufw default deny incoming
 sudo default allow outgoing
 sudo allow ssh
 sudo apt-get update
