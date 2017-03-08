@@ -1,6 +1,6 @@
 sudo ufw default deny incoming
-sudo default allow outgoing
-sudo allow ssh
+sudo ufw default allow outgoing
+sudo ufw allow ssh
 sudo apt-get update
 sudo apt-get install ufw
 sudo ufw allow 22/tcp
