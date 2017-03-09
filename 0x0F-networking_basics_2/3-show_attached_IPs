@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # this displays all active IPv4 IPs on machine executed
-ifconfig | grep 'inet addr:' | awk -F':' {'print $2'} | cut -d' ' -f1
+ifconfig | grep 'inet addr:' | awk -F':' '{print $2}' | cut -d' ' -f1
