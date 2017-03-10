@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# this changes the ownership priveleges of nginx
+chown -R nginx /var/log/nginx
+chown -R nginx /etc/nginx
+chown 755 nginx /etc/nginx/nginx.conf
+
