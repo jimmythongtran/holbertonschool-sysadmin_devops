@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # this line identifies the PID and kills it
+sudo apt-get update
+sudo apt-get install nginx
+sudo service nginx start
 x="$(sudo netstat -lpn | grep :80 | awk '{print $7}' | cut -d '/' -f1 | head -1)"
 sudo kill $x
 sudo sed -i '21 s/8080/80/' /etc/nginx/sites-enabled/default
