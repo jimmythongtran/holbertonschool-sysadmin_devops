@@ -3,5 +3,5 @@
 pkill -9 apache2
 chmod 755 -R /var/log/nginx/ /etc/nginx/
 chown -R nginx /etc/nginx/ nginx /var/log/nginx/
-sed -ie "s/80/8080/" /etc/nginx/sites-enabled/default
-sed -ie "s/80/8080/" /etc/nginx/sites-enabled/default
+sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
+sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
