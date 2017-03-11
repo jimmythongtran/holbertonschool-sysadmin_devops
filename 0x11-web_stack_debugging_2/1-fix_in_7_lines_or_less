@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# this changes the ownership priveleges of nginx
+pkill -9 apache2
+chmod 755 -R /var/log/nginx/ /etc/nginx/
+chown -R nginx /etc/nginx/ nginx /var/log/nginx/
+sed -ie "s/listen 80 default_server;/listen 8080 default_server;/" /etc/nginx/sites-enabled/default
+sed -ie "s/listen [::]:80 default_server ipv6only=on;/listen [::]:8080 default_server ipv6only=on;/" /etc/nginx/sites-enabled/default
