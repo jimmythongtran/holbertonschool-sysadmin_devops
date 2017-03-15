@@ -9,4 +9,4 @@ chown -R nginx /var/log/nginx/
 sed -ie "s/listen 80 default_server;/listen 8080 default_server;/" /etc/nginx/sites-enabled/default
 sed -ie "s/listen [::]:80 default_server ipv6only=on;/listen [::]:8080 default_server ipv6only=on;/" /etc/nginx/sites-enabled/default
 chmod 755 etc/nginx/nginx.conf
-sudo -u nginx service nginx restart
+su nginx -c nginx
