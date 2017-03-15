@@ -4,7 +4,7 @@ pkill apache2
 chown -R nginx /etc/nginx/
 chown -R nginx /var/log/nginx/
 sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
-sed -i "s/#user www-data;/user nginx;/" /etc/nginx/nginx.conf
+#sed -i "s/#user www-data;/user nginx;/" /etc/nginx/nginx.conf
 chown -R nginx /var/log/nginx/ /etc/nginx/ /usr/share/nginx/
-#chmod 755 /etc/nginx/nginx.conf
+chmod 755 /etc/nginx/nginx.conf
 su nginx -c nginx
