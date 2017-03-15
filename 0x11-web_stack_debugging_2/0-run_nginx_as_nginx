@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 # this changes the ownership priveleges of nginx
-pkill -9 apache2
-chmod 755 /etc/nginx/nginx.conf
-chmod 755 -R /var/log/nginx/
-chmod 755 -R /etc/nginx/
+pkill apache2
 chown -R nginx /etc/nginx/
 chown -R nginx /var/log/nginx/
-sed -ie "s/80/8080/" /etc/nginx/sites-enabled/default
-chown -R nginx /usr/share/nginx/
+sed -i "s/80/8080/" /etc/nginx/sites-enabled/default
+chown -R nginx /var/log/nginx/ /etc/nginx/ /usr/share/nginx/
 chmod 755 etc/nginx/nginx.conf
 su nginx -c nginx
