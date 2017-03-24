@@ -1,3 +1,4 @@
+# This manifest creates a Puppet file in /tmp
 file {'/tmp/holberton':
 ensure  => file,
 path    => '/tmp/holberton',
