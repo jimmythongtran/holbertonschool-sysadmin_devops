@@ -2,7 +2,6 @@
 Description
 
 ## New commands / functions used:
-``pep8``
 
 ## Helpful Links
 
