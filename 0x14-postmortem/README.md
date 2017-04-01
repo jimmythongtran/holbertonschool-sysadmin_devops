@@ -10,7 +10,7 @@ From April 1st to April 7th, 2017, the entire country of Vietnam experienced an 
 - 10:35am ICT, April 3rd - the seaops team discover massive bite marks on the undersea fibre optic cables. The team suspects these are the bite marks of a Alopias pelagicus shark common to Ba Ria.
 
 ## Root Causes
-The waters of Ba Ria have been the victim of overfishing, causing sharks to eat and bite alternative sources of sustenance. Also, the shark mistaken the electromagnetic waves for bioelectric fields that surround schools of fish.
+The waters of Ba Ria have been the victim of overfishing, causing sharks to eat and bite alternative sources of sustenance. Also, the sharks mistaken the electromagnetic waves for bioelectric fields that surround schools of fish.
 
 ## Resolution
 From 6:30am ICT, April 4th to 9:00pm ICT, April 7th, the seaops team replaced the sections of undersea fibre optic cables bitten by the sharks. They also exterminated Alopias pelagicus sharks within the vicinity, as well as along the route of the cables.
@@ -20,6 +20,6 @@ June 2017: Russian oil companies in Vung Tau have pledged to re-populate the reg
 
 July 2018 (pending): Google has also offered to help clad the undersea fibre optic cables with Kevlar-like material. Due to the termination of the Trans-Pacific Partnership (TPP) by the Trump Administration, this arrangement is pending a re-instatement of the Trans-Pacific Partnership (TPP), or amended by-laws of the agreement.
 
-August 2018 (pending): FitBit, emboldened with their latest acquisition of the smartwatch company Pebble, will deploy devices that will emit electromagnetic waves towards where the fish will resides, diverging the sharks away from the cables. This arrangment is also pending the aforementioned TPP re-instatement.
+August 2018 (pending): FitBit, emboldened with their latest acquisition of the smartwatch company Pebble, will deploy devices that will emit electromagnetic waves towards where the fish will reside, diverging the sharks away from the cables. This arrangment is also pending the aforementioned TPP re-instatement.
 
 January 2019: Deputy Prime Minister Vuong Dinh Hue will propose a draft mandating all households have DOTA 2 pre-installed on their computers in an effort to increase the efficiency of internet connectivity monitoring. The budget will come from a decrease in FPT's devops team budget for the fiscal years of 2019-2024.
