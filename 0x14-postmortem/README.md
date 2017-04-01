@@ -1,7 +1,7 @@
 #Holberton School - 0x14-postmortem
 
 ## Summary
-From April 1st to April 7th, 2017, the entire country of Vietnam experienced an outage to internet connectivity, causing slow to no connectivity to the internet. It took place from approximately 2:16am ICT-May 31st, 2017 to approximately 5:15pm ICT-April 7th, 2017. 100% of Vietnam's users were unable to access any websites. The root cause was hungry sharks.
+From April 1st to April 7th, 2017, the entire country of Vietnam experienced an outage to internet connectivity, causing slow to no connectivity to the internet. It took place from approximately 2:16am ICT-May 31st, 2017 to approximately 5:15pm ICT-April 7th, 2017. 99% of Vietnam's users were unable to access any websites. The top 1% of the population still had access mysteriously. The root cause was hungry sharks.
 
 ## Timeline
 - 2:16am ICT, April 1st - teenagers from the Ba Dinh district in Hanoi called FPT customer service to report their session of the online game DOTA 2 had stalled. Thinking it was an April Fools prank, they began to worry after 10 minutes. 
