@@ -3,8 +3,8 @@
 GET username and TODOs from https://jsonplaceholder.typicode.com
 from employee ID
 """
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
