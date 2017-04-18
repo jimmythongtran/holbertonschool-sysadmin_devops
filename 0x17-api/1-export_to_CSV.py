@@ -3,9 +3,9 @@
 GET username and TODOs from https://jsonplaceholder.typicode.com
 from employee ID and export data in CSV format
 """
-import sys
-import requests
 import csv
+import requests
+import sys
 
 
 if __name__ == "__main__":
