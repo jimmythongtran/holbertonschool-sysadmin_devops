@@ -11,7 +11,7 @@ if __name__ == "__main__":
     api = "https://jsonplaceholder.typicode.com/"
     empId = sys.argv[1]
     empName = requests.get("{}users/{}".format(api, empId)).json().get("name")
-
+    
     totalTodos = 0
     doneTodos = []
 
@@ -27,4 +27,4 @@ if __name__ == "__main__":
           .format(empName, len(doneTodos), totalTodos))
 
     for item in doneTodos:
-        print("\t{:s}".format(item))
+        print("\t {:s}".format(item))
