@@ -11,7 +11,7 @@ if __name__ == "__main__":
     api = "https://jsonplaceholder.typicode.com/"
     empId = sys.argv[1]
     empName = requests.get("{}users/{}".format(api, empId)).json().get("name")
-    
+
     totalTodos = 0
     doneTodos = []
 
